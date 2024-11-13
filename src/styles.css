@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #cadff9 !important;
+
+    .navbar {
+        background-color: #7eb1f3 !important;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        ;
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .btn-toggle {
+            background: white;
+            color: #7eb1f3;
+            font-weight: bold;
+        }
+
+        .btn-toggle:hover {
+            background: rgb(0, 0, 0);
+            color: #7eb1f3;
+        }
+    }
+
+    .txt {
+        font-size: 70px;
+        padding: 242px 0;
+        color: white;
+    }
+
+    .footer {
+        background-color: #90bffd;
+
+        span {
+            color: white;
+        }
+    }
+
+}
+
+.darktheme {
+    background: #141f2d !important;
+
+    .navbar {
+        background-color: #1a3252 !important;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        ;
+
+        .navbar-brand {
+            color: #486882;
+        }
+
+        .btn-toggle {
+            background: #141f2d;
+            color: #486882;
+            font-weight: bold;
+        }
+
+        .btn-toggle:hover {
+            background: #90bffd;
+            color: #141f2d;
+        }
+    }
+
+    .txt {
+        font-size: 70px;
+        padding: 242px 0;
+        color: #1a3252;
+    }
+
+    .footer {
+        background-color: #1a3252;
+
+        span {
+            color: #486882;
+        }
+    }
+
+}
